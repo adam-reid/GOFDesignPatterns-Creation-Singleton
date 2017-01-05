@@ -1,5 +1,6 @@
 package com.training.singleton;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
 /**
@@ -91,6 +92,10 @@ public class ScrabbleTiles {
      */
     public Integer countOfTiles() {
         return tiles.size();
+    }
+
+    public void shuffle() {
+        Collections.shuffle(tiles);
     }
 
     @Override

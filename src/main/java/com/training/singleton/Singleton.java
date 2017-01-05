@@ -56,7 +56,7 @@ public class Singleton {
 	 * Shuffle the tiles
 	 */
 	public void shuffle() {
-		//todo shuffle them!
+		scrabbleTiles.shuffle();
 	}
 
 	/**
